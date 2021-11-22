@@ -37,6 +37,10 @@
     "src": [
       "app/shared/src/sass/src.scss",
       "app/${build.id}/sass/src.scss"
+    ],
+    "custom": [
+      "angular/*.scss",
+      "app/${build.id}/scss/custom.scss"
     ]
   },
 

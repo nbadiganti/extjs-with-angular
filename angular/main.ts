@@ -6,9 +6,11 @@ import { NgModule } from '@angular/core';
 import { ExtAngularClassicModule } from '@sencha/ext-angular-classic';
 
 import { PersonnelnewComponent } from './personnelnew.component';
+import { ContactComponent } from './contact.component';
 
 Ext.angular = {
   personnelnew: getModule(PersonnelnewComponent),
+  contactview: getModule(ContactComponent),
   platformBrowserDynamic: platformBrowserDynamic,
 }
 

@@ -6,6 +6,7 @@ Ext.define('AngularInExtJsClassic.Angular',{
     var me = this;
     me.callParent([config]);
     me.el.dom.appendChild(document.createElement(me.name + '-root'))
+    console.log(me.name);
     Ext.angular.platformBrowserDynamic().bootstrapModule(Ext.angular[me.name])
     me.el.on('resize', 'onElementResize', me);
   },

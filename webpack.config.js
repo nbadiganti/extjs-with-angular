@@ -31,8 +31,6 @@ module.exports = async function (env) {
   ]
 
 
-
-
   const resolve = {}
   const host = '0.0.0.0'
   const stats = 'none'
@@ -77,9 +75,6 @@ module.exports = async function (env) {
       new FilterWarningsPlugin({
           exclude: /System.import/
       }),
-
-
-
       new ExtWebpackPlugin({
         framework: framework,
         toolkit: toolkit,
@@ -104,9 +99,6 @@ module.exports = async function (env) {
       entry: {
         angular: './angular/main.ts'
       },
-
-
-
 
       output: {
         path: path.join(__dirname, outputFolder),

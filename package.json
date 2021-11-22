@@ -26,10 +26,10 @@
     "build": "npm run clean && cross-env webpack --env.profile=desktop --env.environment=production --env.treeshake=yes"
   },
   "dependencies": {
+    "@sencha/ext": "~7.2.0",
     "@sencha/ext-angular-classic": "~7.2.0",
     "@sencha/ext-classic": "~7.2.0",
-    "@sencha/ext-classic-theme-material": "~7.2.0",
-    "@sencha/ext": "~7.2.0"
+    "@sencha/ext-classic-theme-material": "~7.2.0"
   },
   "devDependencies": {
     "@angular/common": "~9.1.2",
@@ -40,28 +40,29 @@
     "@angular/platform-browser": "~9.1.2",
     "@angular/platform-browser-dynamic": "~9.1.2",
     "@angular/router": "~9.1.2",
-    "@ngtools/webpack": "~9.1.2",
-    "core-js": "~3.6.5",
-    "zone.js": "~0.10.3",
-    "typescript": "3.7.5",
-    "@types/core-js": "~2.5.3",
-    "@types/node": "~13.13.2",
-    "webpack-filter-warnings-plugin": "~1.2.1",
-    "@sencha/ext-webpack-plugin": "~7.2.0",
-    "cross-env": "^5.2.0",
-    "portfinder": "^1.0.21",
-    "webpack": "~4.39.2",
-    "webpack-cli": "~3.3.6",
-    "webpack-dev-server": "~3.8.0",
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
     "@babel/plugin-transform-async-to-generator": "^7.5.0",
     "@babel/plugin-transform-regenerator": "^7.4.5",
     "@babel/preset-env": "^7.5.5",
-    "babel-plugin-add-module-exports": "^1.0.2",
+    "@ngtools/webpack": "~9.1.2",
+    "@sencha/ext-webpack-plugin": "~7.2.0",
+    "@types/core-js": "~2.5.3",
+    "@types/node": "~13.13.2",
     "babel-loader": "^8.0.6",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "core-js": "~3.6.5",
+    "cross-env": "^5.2.0",
+    "html-webpack-plugin": "^4.5.2",
     "lodash.find": "^4.6.0",
-    "replace": "^1.1.1"
+    "portfinder": "^1.0.21",
+    "replace": "^1.1.1",
+    "typescript": "3.7.5",
+    "webpack": "~4.39.2",
+    "webpack-cli": "~3.3.6",
+    "webpack-dev-server": "~3.8.0",
+    "webpack-filter-warnings-plugin": "~1.2.1",
+    "zone.js": "~0.10.3"
   }
 }

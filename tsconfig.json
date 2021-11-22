@@ -19,6 +19,7 @@
   "exclude": ["node_modules"],
   "include": [
     "angular/main.ts",
-    "angular/personnelnew.component.ts"
+    "angular/*.component.ts",
+    "angular/*.component.scss"
   ]
 }
